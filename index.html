@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aeyinka's Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Aeyinka's Interactive Web Page</h1>
+
+  <!-- Part 1: Event Handling Example -->
+  <button id="toggleTheme">Toggle Dark Mode</button>
+  <button id="counterBtn">Click Me</button>
+  <p>Count: <span id="count">0</span></p>
+
+  <!-- Part 2: Collapsible FAQ -->
+  <h2>FAQ</h2>
+  <div class="faq">
+    <button class="faq-toggle">What is JavaScript?</button>
+    <p class="faq-content">JavaScript is a programming language for web interactivity.</p>
+  </div>
+
+  <!-- Part 3: Form Validation -->
+  <h2>Contact Form</h2>
+  <form id="contactForm">
+    <label>Name: <input type="text" id="name"></label>
+    <span class="error" id="nameError"></span><br>
+
+    <label>Email: <input type="email" id="email"></label>
+    <span class="error" id="emailError"></span><br>
+
+    <label>Password: <input type="password" id="password"></label>
+    <span class="error" id="passwordError"></span><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
